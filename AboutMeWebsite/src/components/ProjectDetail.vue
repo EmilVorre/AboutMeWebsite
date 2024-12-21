@@ -15,7 +15,7 @@ const project = ref({
 // Fetch project details based on the id
 onMounted(async () => {
   try {
-    const response = await axios.get(`http://localhost:3000/project/${props.id}`)
+    const response = await axios.get(`http://127.0.0.1:8000/project/${props.id}`)
     project.value = response.data
   } catch (error) {
     console.error('Error fetching project details:', error)
