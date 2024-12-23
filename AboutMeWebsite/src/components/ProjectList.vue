@@ -32,7 +32,7 @@ export default {
         <div class="text-container">
           <h2 class="project-title">{{ project.title }}</h2>
           <p class="project-description">{{ project.description }}</p>
-          <router-link :to="{ path: `/project/${project.id}` }" class="read-more-button">Read More</router-link>
+          <a :href="project.link" class="read-more-button" target="_blank" rel="noopener noreferrer">Github</a>
         </div>
       </div>
     </div>
@@ -103,8 +103,8 @@ export default {
   text-decoration: none;
   border-radius: 4px;
   text-align: center;
-  margin-left: 4em;
-  margin-right: 4em;
+  margin-left: 3em;
+  margin-right: 3em;
   margin-top: auto; /* Push button to the bottom */
 }
 
