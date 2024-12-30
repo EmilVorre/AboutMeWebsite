@@ -12,7 +12,7 @@ import ProjectList from './components/ProjectList.vue';
   <div class="about-me-container">
     <AboutMe />
   </div>
-  <div class="content">
+  <div ½class="content">
     <ProjectList />
   </div>
   <Footer />

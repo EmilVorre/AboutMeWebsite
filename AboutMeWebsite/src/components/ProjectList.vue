@@ -10,7 +10,7 @@ export default {
   },
   async created() {
     try {
-      const response = await axios.get('http://127.0.0.1:8000/projects');
+      const response = await axios.get('http://185.172.173.25:8000/projects');
       console.log('Fetched projects:', response.data); // Log the fetched data
       this.projects = response.data;
     } catch (error) {
