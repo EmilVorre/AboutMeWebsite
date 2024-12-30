@@ -3,7 +3,7 @@ import Navbar from './components/Navbar.vue'
 import './assets/global.css'
 import Footer from './components/Footer.vue'
 import AboutMe from './components/AboutMe.vue';
-import ProjectList from './components/ProjectList.vue';
+import ProjectList from './components/ProjectsList.vue';
 
 </script>
 
@@ -12,7 +12,7 @@ import ProjectList from './components/ProjectList.vue';
   <div class="about-me-container">
     <AboutMe />
   </div>
-  <div ½class="content">
+  <div class="content">
     <ProjectList />
   </div>
   <Footer />

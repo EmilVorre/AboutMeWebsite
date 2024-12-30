@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import type { RouteRecordRaw } from 'vue-router'
-import ProjectList from '../components/ProjectList.vue'
+import ProjectList from '../components/ProjectsList.vue'
 import ProjectDetail from '../components/ProjectDetail.vue'
 import AboutMe from '../components/AboutMe.vue'
 
